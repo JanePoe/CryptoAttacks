@@ -1,0 +1,72 @@
+Result for 11_24.txt: up to 5 out of 60 is 5985198
+No Attack found! Total count = 4684180
+real    0m3.951s
+
+Result for 11_24_2.txt:
+No Attack found! Total count = 4683847
+real    0m3.838s
+
+Result for 12_26.txt: up to 6 out of 65 is 91581634
+No Attack found! Total count = 62012101
+real    0m54.446s
+
+Result for 12_26_2.txt:
+No Attack found! Total count = 62004384
+real    0m54.961s
+
+Result for 13_28_3.txt: up to 6 out of 70 is 144193120
+No Attack found! Total count = 100487764
+real    1m38.845s
+
+Result for 14_30_3.txt: up to 7 out of 75 is 2204734616
+No Attack found! Total count = 1314304479
+real    23m13.216s
+
+Result for 15_32_3.txt: up to 7 out of 80 is 3502923597
+No Attack found! Total count = 2160982544
+real    41m43.366s
+
+Result for 16_34_3.txt: up to 8 out of 85 is 53532640978
+
+Result for 17_36_3.txt: up to 8 out of 90 is 85656137659
+
+Result for 18_38_3.txt: up to 9 out of 95 is 1308523730400
+
+Result for 19_40_3.txt: up to 9 out of 100 is 2105598691396
+
+Result for 20_42_3.txt: up to 10 out of 105 is 32156796836712
+
+Result for 21_44_3.txt: up to 10 out of 110 is 51984764636674
+
+---- FAILING -------------------------------------------------------------
+Result for 13_28_2.txt:
+FOUND ATTACK (with 6 inner probes and 7 outputs probed)!
+Probing 0 7 14 15 21 22 [1 80 4000 8000 200000 400000]
+ Kernel = b193324 1040a46 71d0456 7012c40 d851504 71f3570 40e2022 c06100a 21a1450 31d2d22 4012f78 31f1c14 40004 100 e180a1a 71c0258 9073f72 1363a b1f1c14 e193224 6394e 21b1452
+ Its image = dcb a71 1d14 2165 2417 34ab 2405 2411 140a 34da 2cc1 1d7d 12 180 396f 1818 dd0 2d22 357d 1d4b 25f7 140c
+ attack vector = 3f80
+ output 63 (a00180)
+ output 64 (1400300)
+ output 65 (2800600)
+ output 66 (5000c00)
+ output 67 (a001800)
+ output 68 (4007000)
+ output 69 (800a001)
+real    0m3.307s
+
+Result for 17_36_3.txt: up to 8 out of 90 is 85656137659
+FOUND ATTACK (with 8 inner probes and 9 outputs probed)!
+Probing 0 1 2 5 14 23 24 25 [1 2 4 20 4000 800000 1000000 2000000]
+ Kernel = 7433a298 383a3b40 7874a398 7c101f58 d04eb0d0 44172188 f8082610 383a3340 ac203a18 143a3948 bc210210 50171948 ac210290 301a0698 24370450 c3a3b80 1c3a3b40 3043a800 2c203a18 3043a808 1c3a3f40 44172788 7874b380 6c6eb2c0 0 0 0 0
+ Its image = 6d79 292f 26f8a 20c10 25a29 2269 10cda 252f 97d 2043 1a9f1 369 1adb1 852 e54 252f 210f 27192 2d7d 2719e 270f 2769 2779e 273d8 0 0 0 0
+ attack vector = 3fe0
+ output 77 (4800060)
+ output 78 (90000c0)
+ output 79 (12000180)
+ output 80 (24000300)
+ output 81 (48000600)
+ output 82 (90000c00)
+ output 83 (120001800)
+ output 84 (240003000)
+ output 85 (480006000)
+real    0m2.652s

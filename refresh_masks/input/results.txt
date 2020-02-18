@@ -1,0 +1,204 @@
+Result for 11_24_2.txt: up to 5 out of 60 is 5985198
+THEM: 49s
+No Attack found! Total count = 4684587 (old updateKernel)
+real    0m3.822s
+No Attack found! Total count = 5955743 (no newKernel)
+real    0m1.529s
+No Attack found! Total count = 4684587 (always newKernel)
+real    0m2.930s
+No Attack found! Total count = 4684587
+real    0m1.404s
+
+Result for 12_26_2.txt: up to 6 out of 65 is 91581634 -> 8982754
+THEM: 10min
+No Attack found! Total count = 62020996 (old updateKernel)
+real    0m54.323s
+No Attack found! Total count = 90615147 (no newKernel)
+real    0m26.255s
+No Attack found! Total count = 62012101 (always newKernel)
+real    0m40.544s
+No Attack found! Total count = 73218467 (also t/2-probings)
+real    0m21.501s
+No Attack found! Total count = 7167585
+real    0m2.215s
+
+Result for 13_28_3.txt: up to 6 out of 70 is 144193120
+THEM: 30min
+No Attack found! Total count = 100517994 (old updateKernel)
+real    1m37.726s
+No Attack found! Total count = 142884281 (no newKernel)
+real    0m45.072s
+No Attack found! Total count = 100517994 (always newKernel)
+real    1m13.979s
+No Attack found! Total count = 100517994
+real    0m36.882s
+
+Result for 14_30_3.txt: up to 7 out of 75 is 2204734616 -> 219904766
+THEM: 1h 30min
+No Attack found! Total count = 1315141939 (old updateKernel)
+real    23m38.746s
+No Attack found! Total count = 2169896740 (no newKernel)
+real    12m59.098s
+No Attack found! Total count = 1315141939 (always newKernel)
+real    17m54.891s
+No Attack found! Total count = 1570381515 (also t/2-probings)
+real    9m23.378s
+No Attack found! Total count = 157171997
+real    0m59.440s
+
+Result for 15_32_3.txt: up to 7 out of 80 is 3502923597
+THEM: 2h
+No Attack found! Total count = 2161730068 (old updateKernel)
+real    42m22.730s
+No Attack found! Total count = 3454406030 (no newKernel)
+real    22m14.168s
+No Attack found! Total count = 2161730068 (always newKernel)
+real    32m39.397s
+No Attack found! Total count = 2161730068
+real    16m8.879s
+
+Result for 16_34_3.txt: up to 8 out of 85 is 53532640978 -> 5408129608
+THEM: 2d
+No Attack found! Total count = 28045775003 (old updateKernel)
+real    761m54.997s (12h 41min 55s)
+No Attack found! Total count = 52387577023 (no newKernel)
+real    429m1.037s (7h 9min 1s)
+No Attack found! Total count = 3438457542
+real    26m14.732s
+
+Result for 17_36_4.txt: up to 8 out of 90 is 85656137659
+THEM: 3d
+No Attack found! Total count = 46620435609 (old updateKernel)
+real    1298m16.333s (21h 38min 16s)
+No Attack found! Total count = 84026269642 (no newKernel)
+real    695m15.557s (11h 35min 16s)
+No Attack found! Total count = 46620435609
+real    409m10.097s (6h 49min 10s)
+
+Result for 18_38_4.txt: up to 9 out of 95 is 1308523730400 -> 133531391165
+THEM: 1 month
+No Attack found! Total count = 601029153664 (old updateKernel)
+real    16175m52.660s (11d 5h 35min 53s)
+No Attack found! Total count = 75185546779
+real    686m19.646s (11h 26min 20s)
+
+Result for 19_40_4.txt: up to 9 out of 100 is 2105598691396
+No Attack found! Total count = 1008265598746
+real    13569m49.083s (226h 9min 49s = 9d 10h 9min 49s)
+
+Result for 19_40_5.txt: up to 9 out of 100 is 2105598691396
+No Attack found! Total count = 1008265688364
+real    13490m37.230s (224h 50min 37s = 9d 8h 50min 37s)
+
+Result for 20_42_4.txt: up to 10 out of 105 is 32156796836712
+No Attack found! Total count = 1644627619864
+real    21058m42.415s (350h 58min 42s = 14d 14h 58min 42s)
+
+Result for 20_42_5.txt: up to 10 out of 105 is 32156796836712
+No Attack found! Total count = 1644627731910
+real    21016m13.344s (350h 16min 13s = 14d 14h 16min 13s)
+
+Result for 21_44_4.txt: up to 10 out of 110 is 51984764636674
+
+---- FAILING -------------------------------------------------------------
+Result for 17_36_3.txt:
+THEM: 2h
+FOUND ATTACK (with 8 inner probes and 9 outputs probed)!
+Probing 0 6 33 34 35 60 61 62 [1 40 200000000 400000000 800000000 10000c0 2000180 4000300]
+ Kernel = 5909038a 335fd48a b9681bac 70472026 c3024c94 6220d724 7658d13c 81b297bc 430c94be e22ea72a 80120420 8265ff02 c05e9802 3a039330 f152d398 80763436 fa1ab734 326bb738 7007281a b85d981e c14563be 3853ac3c b01e3c16 c94a8b9c cb46c0aa 8269ff00 c17eebae 3264431a
+ Its image = 2ecc3 294 615e 20195 31383 3440f 24110 35fed 14107 2410d 20cc2 14c9a 24c95 c05 4c94 41db cc3 3409d 30003 30157 c17 34092 14dc4 4dd2 34094 14c99 30d9b 30158
+ attack vector = 7fc0
+ output 78 (9000600)
+ output 79 (12000c00)
+ output 80 (24001800)
+ output 81 (48003000)
+ output 82 (90006000)
+ output 83 (12000c000)
+ output 84 (240018000)
+ output 85 (480030000)
+ output 86 (900020001)
+real    51m41.642s (old updateKernel)
+FOUND ATTACK (with 8 inner probes and 9 outputs probed)!
+Probing 0 6 33 34 35 60 61 62 [1 40 200000000 400000000 800000000 10000c0 2000180 4000300]
+ Kernel = 9006780e 161c312a d10d1b92 990de792 a61db92a 34144636 1508359c 4040e0e 104038e 8001c 900df812 910dfb92 900df814 a5003d80 1d09c99c 8504318e 95003580 c4042e0e 8004300e 850c4d92 40000 80003e 1709ca9c 480002 80002 912dfb9c 100006 2
+ Its image = 0 0 0 0 0 0 0 0 0 0 0 0 28000 2800 2200 2040 2400 3000 2100 6000 8001 8020 2080 8010 8002 8008 8004 18000
+ attack vector = 7fc0
+ output 78 (9000600)
+ output 79 (12000c00)
+ output 80 (24001800)
+ output 81 (48003000)
+ output 82 (90006000)
+ output 83 (12000c000)
+ output 84 (240018000)
+ output 85 (480030000)
+ output 86 (900020001)
+real    25m47.617s (no newKernel)
+FOUND ATTACK (with 8 inner probes and 9 outputs probed)!
+Probing 0 6 33 34 35 60 61 62 [1 40 200000000 400000000 800000000 10000c0 2000180 4000300]
+ Kernel = 8001c000 100038 8001c 4000e 10003800 20007000 4000e000 8001c00 2000700 4000e00 38000 1000380 6 10007800 8007c00 48001c00 80004000 20007000 20000e 4007e00 40000 100006 40001e a00030 2007f00 1087f82 80002 2
+ Its image = 0 0 0 0 0 0 0 0 0 0 0 0 28000 4400 4200 1200 6000 4800 8008 4100 8001 8004 8010 28 4080 c042 8002 18000
+ attack vector = 7fc0
+ output 78 (9000600)
+ output 79 (12000c00)
+ output 80 (24001800)
+ output 81 (48003000)
+ output 82 (90006000)
+ output 83 (12000c000)
+ output 84 (240018000)
+ output 85 (480030000)
+ output 86 (900020001)
+real    12m37.972s
+
+Result for 13_28_2.txt:
+FOUND ATTACK (with 6 inner probes and 7 outputs probed)!
+Probing 0 5 26 27 47 48 [1 20 4000000 8000000 80060 1000c0]
+ Kernel = ccdcc4 2ae65ca 897bd2 375239e 2554e98 16b3cd2 3b55696 92c382 1a1654 44290c 1d16586 10d56de 18d5ade 3271a18 4290c 133739a 1bb4f5a 2427108 28e6ac4 2862a02 c29cc 840c8
+ Its image = 1756 25dc 2b22 1235 1975 3c69 a17 249 272d 2e36 b45 254 254 a7e 2f76 2f6b 256b 1128 375e 375e 2f76 1002
+ attack vector = fe0
+ output 61 (280180)
+ output 62 (500300)
+ output 63 (a00600)
+ output 64 (1400c00)
+ output 65 (2801800)
+ output 66 (5003000)
+ output 67 (a002001)
+real    0m2.699s (old updateKernel)
+FOUND ATTACK (with 6 inner probes and 7 outputs probed)!
+Probing 0 5 26 27 47 48 [1 20 4000000 8000000 80060 1000c0]
+ Kernel = 910d98 800c0 200300 2503780 200b00c 1801400 1101980 2003000 1005806 1001800 184141c 184941c 2843c1e 1851418 83fc0 203f00 2000 844c1e 503f80 103f80 3862410 803c00
+ Its image = 0 0 0 0 0 0 0 0 0 0 2010 12 1010 14 820 880 c00 11 900 840 18 a00
+ attack vector = fe0
+ output 61 (280180)
+ output 62 (500300)
+ output 63 (a00600)
+ output 64 (1400c00)
+ output 65 (2801800)
+ output 66 (5003000)
+ output 67 (a002001)
+real    0m1.030s (no newKernel)
+FOUND ATTACK (with 6 inner probes and 7 outputs probed)!
+Probing 0 5 26 27 47 48 [1 20 4000000 8000000 80060 1000c0]
+ Kernel = 3386a46 139da52 98cd4a 1205b06 40c60a 2883cc c00a 1289bcc 1381a40 1389a4c 8000 8dcca 1395a4e 1389a42 20000 1000600 2385246 309d8c 4801c c002 1400600 a05f06
+ Its image = 0 0 0 0 0 0 0 0 0 0 2002 480 6 1002 a 440 c00 420 12 3 500 600
+ attack vector = fe0
+ output 61 (280180)
+ output 62 (500300)
+ output 63 (a00600)
+ output 64 (1400c00)
+ output 65 (2801800)
+ output 66 (5003000)
+ output 67 (a002001)
+real    0m1.888s (always newKernel)
+FOUND ATTACK (with 6 inner probes and 7 outputs probed)!
+Probing 0 5 26 27 47 48 [1 20 4000000 8000000 80060 1000c0]
+ Kernel = 3386a46 139da52 98cd4a 1205b06 40c60a 2883cc c00a 1289bcc 1381a40 1389a4c 8000 8dcca 1395a4e 1389a42 20000 1000600 2385246 309d8c 4801c c002 1400600 a05f06
+ Its image = 0 0 0 0 0 0 0 0 0 0 2002 480 6 1002 a 440 c00 420 12 3 500 600
+ attack vector = fe0
+ output 61 (280180)
+ output 62 (500300)
+ output 63 (a00600)
+ output 64 (1400c00)
+ output 65 (2801800)
+ output 66 (5003000)
+ output 67 (a002001)
+real    0m0.858s
